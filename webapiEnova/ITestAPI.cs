@@ -15,5 +15,18 @@ namespace webapiEnova
 
         [DynamicApiMethod(HttpMethods.POST, nameof(ContractImport))]
         string ContractImport(ContractImportDTO test);
+
+
+        [DynamicApiMethod(HttpMethods.GET, nameof(Test))]
+        public string Test();
+
+
+        [DynamicApiMethod(HttpMethods.POST, nameof(PostStringData),
+            Summary = "Przykładowa metoda zwracająca striny podany jako parametr strValue",
+            ImplementationNotes = "w paramsach dodajemy strValue, w resultacie dostaniemy ten sam string")]
+        string PostStringData(string strValue);
+
+        [DynamicApiMethod(HttpMethods.POST, nameof(Metoda1))]
+        string Metoda1(PurchaseOrderDTO test);
     }
 }
