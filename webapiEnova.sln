@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapiEnova", "webapiEnova\webapiEnova.csproj", "{0010033E-101D-4CB1-9126-5712F414A614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44E85427-4143-4F53-94F6-9F6C0D9EFF95}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0010033E-101D-4CB1-9126-5712F414A614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0010033E-101D-4CB1-9126-5712F414A614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0010033E-101D-4CB1-9126-5712F414A614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0010033E-101D-4CB1-9126-5712F414A614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5832AEDC-A601-4523-8B1B-8EB947D271D1}
+	EndGlobalSection
+EndGlobal
